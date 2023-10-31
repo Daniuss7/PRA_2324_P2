@@ -42,11 +42,11 @@ int BusquedaBinaria_INV(T val, std::vector<T> &a, int ini, int fin)
     }
   else if(a[medio] > val)
     {
-      return BusquedaBinaria_INV(val, a, medio+1, fin)
+      return BusquedaBinaria_INV(val, a, medio+1, fin);
     }
   else
     {
-      return BusquedaBinaria_INV(val, a, ini, medio)
+      return BusquedaBinaria_INV(val, a, ini, medio);
     }
 
 }
