@@ -1,4 +1,4 @@
-#include <iostream>
+d#include <iostream>
 #include <vector>
 
 template <typename T>
@@ -56,7 +56,7 @@ template <typename T>
 int particion(std::vector<T> &a, int inicio, int fin)
 {
     int pivote;
-    pivote = a[fin];
+    pivote = a[fin];//Modificable para probar casos
     int peque = -1;
     for (int i=inicio;i<fin-1;i++)
     {
